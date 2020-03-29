@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.4.1/united/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+<link rel="stylesheet" href="./style.css">
+<title>History Quiz</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand navbar-light bg-light">
+        <div class="nav navbar-nav">
+            <a class="nav-item nav-link active" href="./index.html">Home <span class="sr-only">(current)</span></a><br>
+            <a class="nav-item nav-link active" href="./highscore.html">High Scores <span class="sr-only"(current)></span></span></a>
+            <p>
+                
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                  Quiz Instructions and Rules
+                </button>
+              </p>
+              <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                    <p>You have 2 minutes to answer all the questions once the timer is started.</p> 
+                    <p>Click Start Timer to begin countdown.</p>
+                    <p>You will lose 15 seconds for every incorrect answer</p>
+                    <p>Check the <a href="./highscore.html.html">High Scores</a> page and try to be the best!</p>
+                </div>
+              </div>
+        </div>
+    </nav>
+    
+    <table class="table table-striped table-inverse table-responsive">
+        <thead class="thead-inverse"><h1>High Scores</h1>
+            <tr>
+                <th>Name</th>
+                <th>Score</th>
+                
+            </tr>
+            </thead>
+            <tbody>
+                <tr id="list">
+                    
+                    
+                </tr>
+                
+            </tbody>
+    </table>
+<script src="./script2.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
